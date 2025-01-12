@@ -166,9 +166,21 @@ nav ul li a {
     margin-bottom: 10px;
 }
 
-.info p, .info ul, .info li {
+.info p {
     font-size: 1rem;
     line-height: 1.5;
+} 
+
+.info ul {
+    font-size: 1rem;
+    line-height: 1.5;
+    list-style-type: none; 
+    padding-left: 0;
+}
+.info li {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 5px;
 }
 
 .content-section.active .info {
